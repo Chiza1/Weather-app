@@ -1,0 +1,135 @@
+body {
+  color: white;
+  margin: 50px 20px;
+}
+
+a {
+  color: #ffdb1f;
+}
+
+a:hover {
+  color: black;
+  font-style: none;
+}
+.container {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/087/127/original/pexels-pixabay-417122.jpg?1687782139");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  width: 800px;
+}
+.search-form {
+  display: flex;
+  flex-direction: row;
+}
+ul {
+  margin-left: 0;
+  padding: 15px;
+}
+li {
+  display: inline;
+  margin: 10px;
+  margin-block-start: 0.5em;
+}
+
+input {
+  padding: 5px 50px;
+  margin: 0 40px;
+  border: none;
+}
+
+span {
+  font-size: 30px;
+}
+
+.btn-one,
+.btn-two {
+  color: black;
+  background-color: #ffdb1f;
+  padding: 5px 30px;
+  border: solid 1px #353cf7;
+  border-radius: 50px;
+}
+
+.btn-one:hover {
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+.btn-two:hover {
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.row {
+  color: black;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card {
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  size: 50px;
+}
+
+.location-icon {
+  color: red;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+.cityName {
+  padding-left: 30px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.weather {
+  color: #ffdb1f;
+  font-weight: bold;
+}
+
+.wind-hum {
+  position: relative;
+  left: 500px;
+  bottom: 100px;
+}
+
+.celsign {
+  position: relative;
+  font-size: 15px;
+  margin-left: -5px;
+  top: -22px;
+  color: #ffdb1f;
+}
+
+.unit {
+  position: relative;
+  bottom: 20px;
+  font-size: 20px;
+  color: #ffdb1f;
+}
+#temperature {
+  font-size: 50px;
+  margin-left: 63px;
+}
+
+.day {
+  position: relative;
+  text-align: center;
+}
+
+#today {
+  font-size: 15px;
+  padding-left: 63px;
+}
+
+.details {
+  color: #ffdb1f;
+  font-size: 20px;
+}

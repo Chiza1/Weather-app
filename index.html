@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://kit.fontawesome.com/55a641908b.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/55a641908b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ul>
+        <li>London</li>
+        <li>Parana</li>
+        <li>California</li>
+        <li>Abuja</li>
+      </ul>
+      <form class="search-form">
+        <input type="search" placeholder="Enter a city" />
+        <button class="btn-one">Search</button>
+        <button class="btn-two">Current</button>
+      </form>
+
+      <div class="cityName">
+        <i class="fa-solid fa-location-dot location-icon"></i>
+        <span id="cityText">New York</span>
+      </div>
+      <p id="today">Monday 12:42</P>
+          <div id="temperature"> <span class="celsign">°C</span> </div>
+          <div class="wind-hum">
+          <div class="details"> </div>
+          <div class="hum"> </div>
+              <div class="win"></div>
+          </div>
+        <div class="row">
+          <div class="col-sm-1.5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Mon</h5>
+                <p class="card-text">
+                  <span>🌤</span> <br> 32°26°
+                  </p>
+              </div>
+            </div>
+          </div>
+           <div class="col-sm-1.5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Tues</h5>
+                <p class="card-text">
+                  <span>🌤</span> <br> 32°26°
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1.5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Wed</h5>
+                <p class="card-text">
+                  <span>☁️</span> <br> 32°26°
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1.5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Thur</h5>
+                <p class="card-text">
+                  <span>☁️</span> <br> 32°26°
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-1.5">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Fri</h5>
+                <p class="card-text">
+                  <span>☁️</span> <br> 32°26°
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
